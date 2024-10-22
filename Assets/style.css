@@ -1,0 +1,108 @@
+/* Definindo a cor de fundo da página */
+body {
+    background-color: #E0FFFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+img {
+    width: 50%;
+}
+
+
+.secoes {
+    margin-bottom: 0.8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+div{
+    text-align: center;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Eu,.txt{
+    width: 50%;
+}
+.Eu img{
+    border-radius: 30px;
+}
+
+.txt{
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    text-align: justify;
+}
+
+h4{
+    font-size: 100px;
+}
+
+.Comentario{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    width: 50% ;
+}
+
+.Comentario img{
+    width: 20%;
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #336699; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    position: relative; /* Para posicionar elementos filhos, se necessário */
+}
+
+/* Estilo para o parágrafo */
+footer p {
+    text-align: center; /* Centraliza o texto */
+    margin: 10px 0; /* Margem acima e abaixo do parágrafo */
+}
+
+/* Estilo para os links */
+footer a {
+    color: #E1E5F7; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 10px; /* Margem lateral entre os links */
+}
+
+/* Efeito ao passar o mouse sobre os links */
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
